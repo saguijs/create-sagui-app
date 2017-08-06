@@ -1,0 +1,31 @@
+{
+  "name": "create-sagui-app",
+  "version": "0.0.1",
+  "description": "Create Sagui app script to create the app using `yarn create`",
+  "main": "index.js",
+  "bin": {
+    "create-sagui-app": "./bin/create-sagui-app.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saguijs/create-sagui-app.git"
+  },
+  "keywords": [],
+  "constributors": [
+    "Xavier Via <fernando.via@gmail.com> (http://github.com/xaviervia)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saguijs/create-sagui-app/issues"
+  },
+  "homepage": "https://github.com/saguijs/create-sagui-app#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
