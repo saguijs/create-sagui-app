@@ -1,6 +1,6 @@
 {
   "name": "create-sagui-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create Sagui app script to create the app using `yarn create`",
   "main": "index.js",
   "bin": {
