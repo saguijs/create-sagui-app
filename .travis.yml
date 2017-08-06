@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '7'
+before_script:
+- npm install
+script:
+- npm test
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: fernando.via@gmail.com
+  api_key:
+    secure: Tbh+YgTCcdhInbJKuLwGGJLH2wUzDNNgNeBG618OG7Hfk5VO9O/ehuYeZ9KM6oQiVGXHC1w1mDCGaVcegYV/gBAliqktIrvfYi03Xv7KG9J6Wap3xwiF+Ji6doI/dFeEAC/2Z3cgEq//XbpssSjCuSC/YyppI4TvKPjNMRcYp2wOUM4M/bkkgBWe1bALFliQluB4GGzJ8YGmoENCvdUas2XRbbf1dbZTkuwHES2doYJMqGeG92m/6PS+KpkCLh/sf2CA/hOsLIURwH3KenhevpuoSsz7ZCLLZnqbgE6sWaVz6E5k7g+LOZ1wHIC8UIF49KfEZMZr4HGBuapT7NQqpCHQpFA9AevGnkLtavqs4fmrHfDehKROwfPU/4i3tAtuB1nu3MMnHkWj7temrLyyEGfcJcseUjGGngscbWnmt/xG08+atcl4krda9ZteyXRwrqI6dTrm+XmUvKzyVmVwGP+g0iIKAjfgA149EZSo1i9r1B9MhNrsqILycN3bzBbBaMwkLGNgVM9T1rU7yL/IUN+6W2A78yw09pfTglK3O35AZoR+GPLFnpQOhRsGnYZYfQE7A+Ch6iAAytgTaM3ZYtjys0KDcRXQa861WVY6SaNpXRISBfUR7++Azc1QnnHg5/xQx8kuWukRfJVOlrOTKQgK+qeKd1fZwtnXouaHXxE=
+  on:
+    tags: true
+    repo: saguijs/create-sagui-app

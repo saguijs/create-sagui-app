@@ -6,6 +6,9 @@
   "bin": {
     "create-sagui-app": "./bin/create-sagui-app.js"
   },
+  "files": [
+    "bin"
+  ],
   "scripts": {
     "test": "jest"
   },
