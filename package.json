@@ -7,7 +7,8 @@
     "create-sagui-app": "./bin/create-sagui-app.js"
   },
   "files": [
-    "bin"
+    "bin",
+    "util"
   ],
   "scripts": {
     "test": "jest"
@@ -26,9 +27,7 @@
   },
   "homepage": "https://github.com/saguijs/create-sagui-app#readme",
   "devDependencies": {
-    "jest": "^20.0.4"
-  },
-  "dependencies": {
+    "jest": "^20.0.4",
     "mkdirp": "^0.5.1"
   }
 }
